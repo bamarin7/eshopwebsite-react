@@ -1,7 +1,7 @@
 import React from 'react';
 import './product.css';
 
-function Product({ id, title, image, price, rating, reviews }) {
+function Product({ id, title, image, price, rating }) {
   return (
     <div>
       <div className="product">
@@ -22,7 +22,6 @@ function Product({ id, title, image, price, rating, reviews }) {
           <br/>
           <button>Add to Basket</button>
         </div>
-
       </div>
     </div>
   )
